@@ -27,7 +27,7 @@ h1#titulop {
     text-align: center;
     padding-top: 60px;
     font-size: 10vh;
-    font-family: var(--fonte01)
+    font-family: var(--fonte01);
     font-weight: normal;
     font-variant: small-caps;
 }
