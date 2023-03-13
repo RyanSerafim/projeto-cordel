@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte01: 'Passion One', cursive;;
+    --fonte02: 'Sriracha', cursive;
+}
+
+html, body {
+    min-height: 100vh;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 130px;
+}
+
+h1#titulop {
+    margin: 0px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 10vh;
+    font-family: var(--fonte01)
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav > p {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+nav > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > p > a:hover {
+    text-decoration: underline;
+    color: rgb(77, 146, 168);
+}
+
+section {
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 3em;
+    font-size: 3.5vh;
+    display: block;
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: left center;
+}
+
+section.imagem {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+main > section > p {
+    font-family: var(--fonte02);
+    font-size: 1.4em;
+    padding-bottom: 47px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10x;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: rgb(77, 146, 168);
+}
